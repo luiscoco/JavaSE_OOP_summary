@@ -2,9 +2,29 @@
 
 https://www.mygreatlearning.com/blog/oops-concepts-in-java/
 
-**Object-Oriented Programming**  is a paradigm that revolves around the concept of "objects"
+**Object-Oriented Programming (OOP)**  is a paradigm that revolves around the concept of "objects"
 
 These **objects** are **instances of classes**, which serve as blueprints for creating tangible, real-world entities in your code
+
+Let's study the main principles in OOP: 
+
+- Abstraction
+
+- Encapsulation
+
+- Inheritance
+
+- Polymorphism
+
+- Association
+
+- Aggregation
+
+- Composition
+
+- Coupling
+
+- Cohesion
 
 ## 1. Abstraction
 
