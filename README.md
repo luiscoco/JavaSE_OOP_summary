@@ -66,7 +66,13 @@ public class TestAbstraction {
 
 ## 2. Encapsulation
 
+https://www.enjoyalgorithms.com/blog/encapsulation-in-oops
+
 Binding (or wrapping) code and data together into a single unit are known as encapsulation
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/330fb0fc-6b51-4837-9ec5-ceacae17c500)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/5924bfe9-2100-442b-ac67-f44b81ae304a)
 
 For example, a capsule, it is wrapped with different medicines.A java class is the example of encapsulation
 
