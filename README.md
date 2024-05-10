@@ -173,9 +173,9 @@ https://panditaarchit98.medium.com/know-everything-about-polymorphism-in-java-67
 
 ![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/283f8b2a-a577-45e9-a405-1814e02cf56b)
 
-Polymorphism in Java is a concept that allows objects of different classes to be treated as objects of a common class
+Polymorphism is a key concept in object-oriented programming that allows objects to be treated as instances of their parent class rather than their actual class
 
-It enables objects to behave differently based on their specific class type
+This enables multiple forms of behaviors through a common interface
 
 In Java, we use method **overloading** and method **overriding** to achieve polymorphism
 
@@ -183,32 +183,62 @@ In Java, we use method **overloading** and method **overriding** to achieve poly
 
 **Polymorphism sample**
 
-```java
-class Calculator {
-    // Method overloading
-    int add(int a, int b) {
-        return a + b;
-    }
+In this example, we have an **abstract class Shape** with a method **draw()**
 
-    double add(double a, double b) {
-        return a + b;
-    }
-    
-    // Method overriding (would normally be in a subclass, shown here for simplicity)
+We have two **subclasses**, **Circle** and **Rectangle**, each implementing the **draw()** method in its own way
+
+```java
+// Abstract class Shape
+abstract class Shape {
+    // Abstract method draw
+    public abstract void draw();
+}
+
+// Circle class inherits from Shape
+class Circle extends Shape {
     @Override
-    public String toString() {
-        return "Calculator class";
+    public void draw() {
+        System.out.println("Drawing a circle");
     }
 }
 
-public class TestPolymorphism {
+// Rectangle class inherits from Shape
+class Rectangle extends Shape {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a rectangle");
+    }
+}
+
+// Main class to run the example
+public class PolymorphismExample {
     public static void main(String[] args) {
-        Calculator calc = new Calculator();
-        System.out.println(calc.add(5, 3));     // Outputs: 8
-        System.out.println(calc.add(5.0, 3.0)); // Outputs: 8.0
+        // Create an array of Shape references
+        Shape[] shapes = new Shape[2];
+        shapes[0] = new Circle();
+        shapes[1] = new Rectangle();
+
+        // Iterate over the array and draw each shape
+        for (Shape shape : shapes) {
+            shape.draw(); // Polymorphic call
+        }
     }
 }
 ```
+
+**Polymorphism Explanation**
+
+**Shape**: This is an abstract class that declares an abstract method draw(). This means any subclass of Shape must provide its own implementation of draw()
+
+**Circle and Rectangle**: These classes are concrete and provide specific implementations of the draw() method. When draw() is called on an instance of Circle, it prints "Drawing a circle", and when called on an instance of Rectangle, it prints "Drawing a rectangle"
+
+**Polymorphism in Action**: In the main method, we create an array of Shape references that point to instances of Circle and Rectangle
+
+When we loop through this array and call draw(), the appropriate method is invoked based on the actual object type (either Circle or Rectangle), not the reference type (Shape)
+
+This is polymorphism, where Shape can take on many forms and behaviors
+
+This example shows how ***Java allows different class instances to be treated through a common interface (Shape)**, enhancing flexibility and scalability in the application design
 
 Apart from these concepts, there are some other terms which are used in **Object-Oriented design**:
 
