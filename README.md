@@ -142,7 +142,21 @@ public class TestInheritance {
 
 ## 4. Polymorphism
 
-If one task is performed in different ways, it is known as polymorphism. In Java, we use method overloading and method overriding to achieve polymorphism
+https://panditaarchit98.medium.com/know-everything-about-polymorphism-in-java-67ba0dd2804b
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/3693135f-ead1-4893-bc53-a94fe29b8b16)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/aae4f429-bf43-4aef-ad1a-55ccdc276218)
+
+Polymorphism in Java is a concept that allows objects of different classes to be treated as objects of a common class
+
+It enables objects to behave differently based on their specific class type
+
+
+
+In Java, we use method **overloading** and method **overriding** to achieve polymorphism
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/8c78e14b-c3dd-490c-9fe4-087eff4ac856)
 
 **Polymorphism sample**
 
