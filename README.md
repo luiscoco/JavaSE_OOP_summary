@@ -32,6 +32,23 @@ Let's study the main principles in OOP:
 
 - Cohesion
 
+## 1. Class
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/93ae42e4-caac-4d0c-aa83-07dfb3030e13)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/cec8cc62-0d19-4c8b-a375-6b72dbf8531f)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/5ed30874-e289-47a1-ba0f-fec8f328122a)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/6547fcc5-1299-4849-9064-72246f4dfc76)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/6bef4e1e-7efa-43d0-85df-9c4f0516fda9)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/96b066fb-2df2-4dbf-8cb4-14dece165f7d)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/92586afc-6f1a-437b-898b-4a1c61c9694f)
+
+
 ## 1. Abstraction
 
 https://www.softwaretestinghelp.com/what-is-abstraction-in-java/
