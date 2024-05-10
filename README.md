@@ -6,6 +6,8 @@ https://www.mygreatlearning.com/blog/oops-concepts-in-java/
 
 https://www.softwaretestinghelp.com/what-is-abstraction-in-java/
 
+Youtube video: https://youtu.be/9R42iyJsgBw
+
 Hiding internal details and showing functionality is known as abstraction
 
 ![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/17267f5f-0250-4c32-a16a-c256bc75a796)
