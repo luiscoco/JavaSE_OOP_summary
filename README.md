@@ -214,9 +214,9 @@ public class TestAggregation {
 
 ## 7. Composition
 
-It is one of the Java OOPs concepts that represent the strong relationship between the dependent object and the containing object
+It is one of the **Java OOPs** concepts that represent the strong **relationship between the dependent object and the containing object**
 
-Composition implies a stronger relationship where the contained objects cannot exist without the container
+Composition implies a stronger relationship where the **contained objects cannot exist without the container**
 
 It involves a "part-of" relationship where the lifecycle of the contained objects depends on the lifecycle of the container
 
@@ -253,9 +253,11 @@ public class TestComposition {
 
 ## 8. Coupling
 
-Coupling refers to the knowledge or information or dependency of another class. It arises when classes are aware of each other
+Coupling refers to the knowledge or information or dependency of another class. It arises when **classes are aware of each other**
 
-If a class has the details information of another class, there is strong coupling. In Java, we use private, protected, and public modifiers to display the visibility level of a class, method, and field
+If a class has the details information of another class, there is strong coupling
+
+In Java, we use **private**, **protected**, and **public** access modifiers to display the visibility level of a class, method, and field
 
 ```java
 class Display {
@@ -287,7 +289,9 @@ Cohesion refers to the level of a component which performs a single well-defined
 
 A single well-defined task is done by a highly cohesive method. The weakly cohesive method will split the task into separate parts
 
-The java.io package is a highly cohesive package because it has I/O related classes and interface. However, the java.util package is a weakly cohesive package because it has unrelated classes and interfaces
+The **java.io package** is a highly cohesive package because it has I/O **related classes and interface**
+
+However, the **java.util** package is a weakly cohesive package because it has **unrelated classes and interfaces**
 
 ```java
 public class FileManager {
