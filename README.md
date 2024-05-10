@@ -108,7 +108,13 @@ public class MedicineCapsule {
 
 ## 3. Inheritance
 
-When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism
+https://www.enjoyalgorithms.com/blog/inheritance-in-java
+
+When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. 
+
+It provides **code reusability**. It is used to achieve runtime polymorphism
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/b1f71391-561c-485e-b4c7-ee26ac0589f1)
 
 **Inheritance sample**
 
