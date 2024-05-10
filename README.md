@@ -2,6 +2,10 @@
 
 https://www.mygreatlearning.com/blog/oops-concepts-in-java/
 
+**Object-Oriented Programming**  is a paradigm that revolves around the concept of "objects"
+
+These **objects** are **instances of classes**, which serve as blueprints for creating tangible, real-world entities in your code
+
 ## 1. Abstraction
 
 https://www.softwaretestinghelp.com/what-is-abstraction-in-java/
