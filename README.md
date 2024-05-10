@@ -32,7 +32,7 @@ Let's study the main principles in OOP:
 
 - Cohesion
 
-## 1. Class
+## 0. Class
 
 ![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/93ae42e4-caac-4d0c-aa83-07dfb3030e13)
 
