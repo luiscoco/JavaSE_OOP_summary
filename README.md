@@ -10,6 +10,8 @@ https://www.mygreatlearning.com/blog/oops-concepts-in-java/
 
 These **objects** are **instances of classes**, which serve as blueprints for creating tangible, real-world entities in your code
 
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/7e2f0237-afcc-4ebe-b1a7-3d109fa3b03d)
+
 Let's study the main principles in OOP: 
 
 - Abstraction
