@@ -10,6 +10,8 @@ Hiding internal details and showing functionality is known as abstraction
 
 ![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/17267f5f-0250-4c32-a16a-c256bc75a796)
 
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/29085ed1-e362-47fe-8a64-dc0734af433d)
+
 ![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/e41d776a-7200-42b7-b967-029a15ea357e)
 
 For example phone call, we don't know the internal processing. In Java, we use abstract class and interface to achieve abstraction
