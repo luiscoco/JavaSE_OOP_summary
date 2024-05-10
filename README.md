@@ -151,6 +151,12 @@ It provides **code reusability**. It is used to achieve runtime polymorphism
 
 ![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/b1f71391-561c-485e-b4c7-ee26ac0589f1)
 
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/efbff1cc-59e4-4b68-8051-dc9895b52530)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/20edee92-c4b7-4bdb-bc0e-e2720aee5284)
+
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/c5499c1f-2f9a-4cc2-9f9f-6e109dde05df)
+
 **Inheritance sample**
 
 ```java
