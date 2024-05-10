@@ -4,6 +4,8 @@ https://www.youtube.com/playlist?list=PLqleLpAMfxGCbdaJ6SoExDfHrTfRDeWeG
 
 https://www.mygreatlearning.com/blog/oops-concepts-in-java/
 
+![image](https://github.com/luiscoco/JavaSE_OOP_summary/assets/32194879/be4614c8-3307-4e41-88c1-0514090a123d)
+
 **Object-Oriented Programming (OOP)**  is a paradigm that revolves around the concept of "objects"
 
 These **objects** are **instances of classes**, which serve as blueprints for creating tangible, real-world entities in your code
