@@ -209,3 +209,84 @@ public class TestAssociation {
 }
 ```
 
+## 8. Aggregation
+
+Aggregation represents a "has-a" relationship but with objects that can exist independently of the containing object
+
+It implies a relationship where the child can exist independently of the parent
+
+```java
+class Engine {
+    void start() {
+        System.out.println("Engine has started.");
+    }
+
+    void stop() {
+        System.out.println("Engine has stopped.");
+    }
+}
+
+class Car {
+    private final Engine engine; // Car HAS-A Engine
+
+    Car(Engine engine) {
+        this.engine = engine;
+    }
+
+    void startCar() {
+        engine.start();
+        System.out.println("Car is running.");
+    }
+
+    void stopCar() {
+        engine.stop();
+        System.out.println("Car has stopped.");
+    }
+}
+
+public class TestAggregation {
+    public static void main(String[] args) {
+        Engine myEngine = new Engine();
+        Car myCar = new Car(myEngine);
+        myCar.startCar();  // Engine has started. Car is running.
+        myCar.stopCar();   // Engine has stopped. Car has stopped.
+    }
+}
+```
+
+## 9. Composition
+
+Composition implies a stronger relationship where the contained objects cannot exist without the container
+
+It involves a "part-of" relationship where the lifecycle of the contained objects depends on the lifecycle of the container
+
+```java
+class Processor {
+    void process() {
+        System.out.println("Processor is processing data.");
+    }
+}
+
+class Computer {
+    private Processor processor; // Computer HAS-A Processor
+
+    Computer() {
+        // Processor is instantiated as part of the Computer's instantiation
+        this.processor = new Processor();
+    }
+
+    void startComputer() {
+        processor.process();
+        System.out.println("Computer is ready to be used.");
+    }
+
+    // Once Computer is destroyed, Processor will also be destroyed
+}
+
+public class TestComposition {
+    public static void main(String[] args) {
+        Computer myComputer = new Computer();
+        myComputer.startComputer();  // Processor is processing data. Computer is ready to be used.
+    }
+}
+```
