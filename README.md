@@ -129,72 +129,11 @@ public class TestPolymorphism {
 
 Apart from these concepts, there are some other terms which are used in **Object-Oriented design**:
 
-**5. Association** - Association represents the relationship between the objects. Here, one object can be associated with one object or many objects
+## 5. Association
+
+Association represents the relationship between the objects. Here, one object can be associated with one object or many objects
 
 There can be four types of association between the objects: One to One One to Many Many to One, and Many to Many
-
-**6. Aggregation** - This OOPs concept in Java is symbolic of the relationship where one object contains other objects as a part of the state
-
-**7. Composition** - It is one of the Java OOPs concepts that represent the strong relationship between the dependent object and the containing object
-
-**8. Coupling** - Coupling refers to the knowledge or information or dependency of another class. It arises when classes are aware of each other
-
-If a class has the details information of another class, there is strong coupling. In Java, we use private, protected, and public modifiers to display the visibility level of a class, method, and field
-
-**9. Cohesion** - Cohesion refers to the level of a component which performs a single well-defined task
-
-A single well-defined task is done by a highly cohesive method. The weakly cohesive method will split the task into separate parts
-
-The java.io package is a highly cohesive package because it has I/O related classes and interface. However, the java.util package is a weakly cohesive package because it has unrelated classes and interfaces
-
-Here are some Java application samples that demonstrate key **Object-Oriented Programming(OOP)** concepts:
-
-## 5. Coupling
-
-```java
-class Display {
-    void displayInfo(String info) {
-        System.out.println(info);
-    }
-}
-
-class Processor {
-    Display display = new Display();
-
-    void processInfo(String info) {
-        // Moderate coupling - using Display class directly within Processor class
-        display.displayInfo(info);
-    }
-}
-
-public class TestCoupling {
-    public static void main(String[] args) {
-        Processor proc = new Processor();
-        proc.processInfo("Hello, world!");  // Outputs: Hello, world!
-    }
-}
-```
-
-## 6. Cohesion
-
-```java
-public class FileManager {
-    // Highly cohesive method to read file content
-    String readFile(String path) {
-        // Implementation to read and return file content
-        return "File content";
-    }
-}
-
-public class TestCohesion {
-    public static void main(String[] args) {
-        FileManager fileManager = new FileManager();
-        System.out.println(fileManager.readFile("example.txt")); // Outputs: File content
-    }
-}
-```
-
-## 7. Association
 
 ```java
 class Student {
@@ -226,7 +165,9 @@ public class TestAssociation {
 }
 ```
 
-## 8. Aggregation
+## 6. Aggregation
+
+This OOPs concept in Java is symbolic of the relationship where one object contains other objects as a part of the state
 
 Aggregation represents a "has-a" relationship but with objects that can exist independently of the containing object
 
@@ -271,7 +212,9 @@ public class TestAggregation {
 }
 ```
 
-## 9. Composition
+## 7. Composition
+
+It is one of the Java OOPs concepts that represent the strong relationship between the dependent object and the containing object
 
 Composition implies a stronger relationship where the contained objects cannot exist without the container
 
@@ -304,6 +247,61 @@ public class TestComposition {
     public static void main(String[] args) {
         Computer myComputer = new Computer();
         myComputer.startComputer();  // Processor is processing data. Computer is ready to be used.
+    }
+}
+```
+
+## 8. Coupling
+
+Coupling refers to the knowledge or information or dependency of another class. It arises when classes are aware of each other
+
+If a class has the details information of another class, there is strong coupling. In Java, we use private, protected, and public modifiers to display the visibility level of a class, method, and field
+
+```java
+class Display {
+    void displayInfo(String info) {
+        System.out.println(info);
+    }
+}
+
+class Processor {
+    Display display = new Display();
+
+    void processInfo(String info) {
+        // Moderate coupling - using Display class directly within Processor class
+        display.displayInfo(info);
+    }
+}
+
+public class TestCoupling {
+    public static void main(String[] args) {
+        Processor proc = new Processor();
+        proc.processInfo("Hello, world!");  // Outputs: Hello, world!
+    }
+}
+```
+
+## 9. Cohesion
+
+Cohesion refers to the level of a component which performs a single well-defined task
+
+A single well-defined task is done by a highly cohesive method. The weakly cohesive method will split the task into separate parts
+
+The java.io package is a highly cohesive package because it has I/O related classes and interface. However, the java.util package is a weakly cohesive package because it has unrelated classes and interfaces
+
+```java
+public class FileManager {
+    // Highly cohesive method to read file content
+    String readFile(String path) {
+        // Implementation to read and return file content
+        return "File content";
+    }
+}
+
+public class TestCohesion {
+    public static void main(String[] args) {
+        FileManager fileManager = new FileManager();
+        System.out.println(fileManager.readFile("example.txt")); // Outputs: File content
     }
 }
 ```
